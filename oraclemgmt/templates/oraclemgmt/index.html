@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DBATools</title>
+</head>
+<body>
+    <h1>Oracle Database Services</h1>
+    <ul>
+        {% for srv_name in dbsrvs.keys %}
+        <li><a href="{% url 'show_actions' dbtag=srv_name%}">{{srv_name}}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

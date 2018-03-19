@@ -3,3 +3,4 @@ dbatools/__pycache__/*.pyc
 __pycache__
 *.pyc
 geckodriver.log
+dbconfig.py
